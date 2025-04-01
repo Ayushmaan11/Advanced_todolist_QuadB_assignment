@@ -1,5 +1,6 @@
 # Advanced Todo App  
-![Screenshot](./screenshot.png)(./screenshot-1.png) 
+![Screenshot](./screenshot.png)
+![Screenshot](./screenshot-1.png) 
 
 ## Features  
 - ✅ Add/delete tasks with priority levels  
