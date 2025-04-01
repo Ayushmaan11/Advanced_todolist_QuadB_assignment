@@ -1,5 +1,5 @@
-
-import {React,useEffect}from 'react';
+// App.js
+import {React}from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
 import {Provider, useSelector, useDispatch, } from 'react-redux'
 import { PersistGate } from 'redux-persist/integration/react';
@@ -12,9 +12,6 @@ import { Container, AppBar, Toolbar, Typography, Button } from '@mui/material';
 import { logout } from './features/auth/authSlice';
 
 const App = () => {
-  useEffect(() => {
-    console.log('API Key:', process.env.REACT_APP_WEATHER_API_KEY);
-  }, []);
 
   return (
     <Provider store={store}>
